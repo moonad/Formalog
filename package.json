@@ -1,0 +1,26 @@
+{
+  "name": "webpeerchat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonad/webpeerchat.git"
+  },
+  "author": "Victor Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonad/webpeerchat/issues"
+  },
+  "homepage": "https://github.com/moonad/webpeerchat#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "isomorphic-ws": "^4.0.1",
+    "nano-ethereum-signer": "^0.1.2",
+    "ws": "^7.3.1"
+  }
+}
